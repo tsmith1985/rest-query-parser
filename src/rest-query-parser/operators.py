@@ -1,0 +1,19 @@
+EQUAL = 'eq'
+GREATER_THAN = 'gt'
+GREATER_THAN_OR_EQUAL = 'gte'
+IN = 'in'
+LESS_THAN = 'lt'
+LESS_THAN_OR_EQUAL = 'lte'
+NOT_EQUAL = 'neq'
+NOT_IN = 'nin'
+
+ALL = (
+    EQUAL,
+    GREATER_THAN_OR_EQUAL,
+    GREATER_THAN,
+    IN,
+    LESS_THAN_OR_EQUAL,
+    LESS_THAN,
+    NOT_EQUAL,
+    NOT_IN
+)
